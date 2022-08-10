@@ -1,4 +1,4 @@
-name: practice-workflows
+name: practice-workflow
 on: push
 jobs:
   echo-jobs:
@@ -6,4 +6,4 @@ jobs:
     name: echo
     steps:
       - name: "echo hello world"
-        run: echo "Hello World"
+        run: echo "Hello World!"
