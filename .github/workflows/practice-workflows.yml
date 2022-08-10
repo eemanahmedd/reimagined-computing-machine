@@ -1,5 +1,5 @@
 name: practice-workflow
-on: push
+on: pull_request
 jobs:
   echo-jobs:
     runs-on: ubuntu-latest
