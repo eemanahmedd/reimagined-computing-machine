@@ -1,0 +1,9 @@
+name: practice-workflows
+on: push
+jobs:
+  echo-jobs:
+    runs-on: ubuntu-latest
+    name: echo
+    steps:
+      - name: "echo hello world"
+        run: echo "Hello World"
